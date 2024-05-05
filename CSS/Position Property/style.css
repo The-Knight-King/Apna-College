@@ -1,0 +1,45 @@
+body{
+    font-size: large;
+    background-color: beige;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+}
+
+#box-1 {
+    position: static;
+}
+
+#box-2 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+
+#box-3 {
+    position: absolute; /* As Soon as the position is changed to absolute the box will remove itself from the flow and will position itself relative to the closest ancestor, which is body tag in this case, so it will position itself at the distance of 10px from the top of the entire page which the the body of the html doc  */
+    top: 10px;
+}
+
+#box-4 {
+    position: fixed;
+    /* As soon as the position for this element is set as fixed, it will remove itself from the flow and position itself based on the entire document, so here it set itself on the distance of 20px from the right of the entire doc */
+    right: 20px;
+    top: 0px;
+    margin: 0;
+}
+
+#box-5 {
+    position: sticky;
+    left: 600px;
+    top: 0px;
+}
+

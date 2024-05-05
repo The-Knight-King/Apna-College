@@ -1,0 +1,30 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: rgb(218, 19, 19);
+    background-color: rgb(254, 254, 60);
+    text-align: center;
+    text-decoration: underline dashed;
+}
+
+button {
+    background-color: yellow;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}   
+
+#one {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#two {
+    font-family: cursive;
+}

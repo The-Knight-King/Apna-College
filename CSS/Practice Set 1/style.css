@@ -1,0 +1,25 @@
+#box {
+    background-color: blue;
+    color: aliceblue;
+}
+
+.heading {
+    color: red;
+}
+
+#button-1 {
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 4px;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    transition-duration: 0.4s;
+}
+
+#button-1:hover {
+    color: black;
+    background-color: white;
+}

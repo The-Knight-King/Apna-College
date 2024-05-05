@@ -1,0 +1,17 @@
+#box-1 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    text-align: center;
+    font-size: 20px;
+}
+
+#box-2 {
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    margin-left: 25%;
+    margin-top: 15%;
+    font-size: 2em;     /* Here this means that the font-size of text in box-2 is 2 times the font-size of the parent i.e. box-1 */
+}
+

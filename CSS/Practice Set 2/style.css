@@ -1,0 +1,17 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#heading-1 {
+    text-align: center;
+    text-transform: capitalize;
+    color: red;
+}
+
+#outer {
+    font-size: 25px;
+}
+
+#inner {
+    font-size: 10px;
+}

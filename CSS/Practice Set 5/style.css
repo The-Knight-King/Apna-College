@@ -1,0 +1,12 @@
+#box-1 {
+    font-size: larger;
+    font-weight: 600;
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    background-image: url("/Practice\ Set\ 5/image-2.jpg");
+    background-size: cover;
+    position: fixed;
+    right: 5px;
+    top: 100px;
+}

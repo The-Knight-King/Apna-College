@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Page</title>
+</head>
+<body>
+    <p>This is the second page of the website</p>
+    <!-- Studying about lists -->
+    <p><b>Let's see an unordered list</b></p>
+    <h3>Let's learn the names of some fruits</h3>
+    <ul>
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Tomato</li>
+    </ul>
+
+    <p><b>Now let's see an ordered list</b></p>
+    <p>Enter your information in the below format:</p>
+    <ol>
+        <li>Name</li>
+        <li>Class</li>
+        <li>Roll No.</li>
+        <li>Contact</li>
+    </ol>
+
+    <!-- Let's see tables in HTML -->
+    <!-- Tables are used to represent real life table data.
+        Commonly used tags in table are:
+        <tr>: Used to display a table row
+        <td>: Used to display the table data
+        <th>: Used to display table header
+    -->
+    <hr>
+    <div>
+        <h3>Creating a table below</h3>
+        <table>
+            <thead>
+                <caption>Student Info</caption>
+                <tr>
+                    <th>Name</th>
+                    <th>Roll No</th>
+                    <th>Contact</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Akshit</td>
+                    <td>149</td>
+                    <td>1234567890</td>
+                </tr>
+                
+                <tr>
+                    <td>Sheldon</td>
+                    <td>156</td>
+                    <td>0987654321</td>
+                </tr>
+    
+                <tr>
+                    <td>Tushar</td>
+                    <td>150</td>
+                    <td>5436546578</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr>
+    <div>
+        <h3>Registration Form!!</h3>
+        <form action="/action.php">
+            <p>Enter your login details below:</p>
+            <input type="text" placeholder="username">
+            <br><br>
+            <input type="password" placeholder="password">
+
+            <!-- Label makes the entire text for the input clickable as well, if you remove the label from the code then the text like class 11 won't be clickable, basically then the text starts to behave like a button. -->
+            <br>
+            <p><b>Choose your class:</b></p>
+            <label for="radio-1">
+                <input type="radio" value="class 11" name="class" id="radio-1">Class 11<sup>th</sup>
+            </label>
+            <label for="radio-2">
+                <input type="radio" value="class 12" name="class" id="radio-2">Class 12<sup>th</sup>
+            </label>
+            <br>
+            <p><b>Choose at least 3 subjects from below:</b></p>
+            <label for="101">
+                <input type="checkbox" value="maths" name="subject" id="101">Maths
+            </label>
+            <br>
+            <label for="102">
+                <input type="checkbox" value="chemistry" name="subject" id="102">Chemistry
+            </label>
+            <br>
+            <label for="103">
+                <input type="checkbox" value="physics" name="subject" id="103">Physics
+            </label>
+            <br>
+            <label for="104">
+                <input type="checkbox" value="english" name="subject" id="104">English
+            </label>
+            <br>
+            <label for="105">
+                <input type="checkbox" value="computer" name="subject" id="105">Computers
+            </label><br>
+
+            <!-- Adding a dropdown menu in the form -->
+            <p><b>Select your city:</b></p>
+            <select name="city" id="city">
+                <option value="Delhi">Delhi</option>
+                <option value="Chandigarh">Chandigarh</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Pune">Pune</option>
+                <option value="Kolkata">Kolkata</option>
+            </select>
+            <br><br>
+            <!-- textarea is used to add a big input field, usually used for taking feedback or summary from the users in a form -->
+            <textarea name="feedback" id="feed" placeholder="Please share your feedback here!" cols="60" rows="10"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div><br>
+
+    <!-- Adding an iframe below -->
+    <div>
+        <p><b>Added a video using iframe tag</b></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=rz-ymhOjERf1xi4H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
+        
+        <!-- Adding a video using video tag -->
+        <p><b>Added a video using video tag:</b></p>
+        <video width="560" height="315" src="/Sample Video.mp4" controls loop muted>My Video</video>
+    </div>
+    
+</body>
+</html>
