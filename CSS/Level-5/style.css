@@ -31,9 +31,10 @@ div:hover {
     color: white;
     /* transform: scale(2); */
     /* transform: rotate(1080deg); */
-    transform: translateX(200px);
+    /* transform: translateX(200px); */
     /* transform: translateX(-200px); */
     /* transform: translate(200px, -200px); Here we are moving the element along both x and y axis. */
+    transform: skew(-30deg);
 }
 
 div:active {
