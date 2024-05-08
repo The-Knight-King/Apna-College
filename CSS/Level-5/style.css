@@ -20,6 +20,8 @@ div {
     /* Transition property in one line below */
     /* transition: all 1s ease-out 0.2s; */
     transform: rotate(45deg);
+    /* transform: rotateY(45deg); */
+    /* transform: rotateX(80deg); */
 }
 
 div:hover {
