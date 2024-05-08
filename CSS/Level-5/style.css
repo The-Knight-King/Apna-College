@@ -13,31 +13,25 @@ div {
     position: absolute;
     top: 300px;
     left: 300px;
-    transition-property: all;
-    transition-duration: 1s;
-    /* transition-timing-function: ease-in; */
-    /* transition-delay: 0.5s; */
-    /* Transition property in one line below */
-    /* transition: all 4s ease-out; */
-    /* transform: rotate(45deg); */
-    /* transform: rotateY(45deg); */
-    /* transform: rotateX(80deg); */
-     /* By default the scaling will apply on both x and y axis if a single value is passed in the scale*/
-    /* transform: scale(2,1); This will scale the element twice along x axis and keep it same alomg y-axis */
+}
+
+@keyframes colorAnimate {
+    from {
+        background-color: coral;
+        color: black;
+        font-size: large;
+    }
+    to {
+        background-color: green;
+        color: white;
+        font-size: larger;
+        transform: scale(2);
+    }
 }
 
 div:hover {
-    background-color: forestgreen;
-    color: white;
-    /* transform: scale(2); */
-    /* transform: rotate(1080deg); */
-    /* transform: translateX(200px); */
-    /* transform: translateX(-200px); */
-    /* transform: translate(200px, -200px); Here we are moving the element along both x and y axis. */
-    transform: skew(-30deg);
-}
-
-div:active {
-    border-radius: 50%;
-    background-color: aqua;
+    animation-name: colorAnimate;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
 }
