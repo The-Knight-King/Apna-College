@@ -1,0 +1,23 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+}
+
+@media (width:600px) {
+    div {
+        background-color: aqua;
+    }
+}
+
+@media (min-width : 800px) {
+    div {
+        background-color: forestgreen;
+    }
+}
+
+@media (min-width : 300px) and (max-width : 500px) {
+    div {
+        background-color: bisque;
+    }
+}
