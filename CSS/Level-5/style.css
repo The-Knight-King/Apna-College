@@ -13,25 +13,18 @@ div {
     position: absolute;
     top: 300px;
     left: 300px;
-}
-
-@keyframes colorAnimate {
-    from {
-        background-color: coral;
-        color: black;
-        font-size: large;
-    }
-    to {
-        background-color: green;
-        color: white;
-        font-size: larger;
-        transform: scale(2);
-    }
-}
-
-div:hover {
-    animation-name: colorAnimate;
-    animation-duration: 4s;
+    animation-name: movingBox;
+    animation-duration: 2s;
     animation-timing-function: ease-out;
     animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes movingBox {
+    from {
+        left: 300px;
+    }
+    to {
+        left: 700px;
+    }
 }
