@@ -9,22 +9,37 @@ div {
     background-color: coral;
     border: 2px solid black;
     text-align: center;
-    margin-left: 20px;
     position: absolute;
-    top: 300px;
-    left: 300px;
     animation-name: movingBox;
-    animation-duration: 2s;
-    animation-timing-function: ease-out;
+    animation-duration: 8s;
+    animation-timing-function: ease-in;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-direction: normal;
 }
 
 @keyframes movingBox {
-    from {
-        left: 300px;
+    0% {
+        top: 0px;
+        left: 600px;
     }
-    to {
-        left: 700px;
+
+    25% {
+        top: 250px;
+        left: 0px;
+    }
+
+    50% {
+        top: 551px;
+        left: 600px;
+    }
+
+    75% {
+        top: 250px;
+        left: 1235px;
+    }
+
+    100% {
+        top: 0px;
+        left: 600px;
     }
 }
