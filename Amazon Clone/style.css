@@ -8,11 +8,13 @@
     height: 62px;
     background-color: #0f1111;
     color: white;
+    display: flex;
+    /* align-items: center; */
 }
 
 .nav-logo {
     width: 118px;
-    height: 53px;
+    height: 55px;
 }
 
 .logo {
@@ -26,8 +28,37 @@
 
 .border {
     border: 2px solid transparent;
+    border-radius: 2px;
 }
 
 .border:hover {
     border: 2px solid white;
+}
+
+/* Adding styling for box-2 */
+
+.nav-address {
+    margin-left: 5px;
+    height: 43px;
+    padding-top: 12px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.add-icon {
+    display: flex;
+}
+
+.add-first {
+    color: #cccccc;
+    font-size: 12px;
+    margin-left: 16px;
+    /* margin-top: 5px; */
+}
+
+.add-second {
+    color: white;
+    font-size: 14px;
+    margin-left: 4px;
+    font-weight: 600;
 }
