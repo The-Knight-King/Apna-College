@@ -37,7 +37,7 @@
 
 /* Adding styling for box-2 */
 
-.nav-address {
+.nav-location {
     margin-left: 5px;
     height: 43px;
     padding-top: 12px;
@@ -45,18 +45,18 @@
     padding-right: 4px;
 }
 
-.add-icon {
+.loc-icon {
     display: flex;
 }
 
-.add-first {
+.loc-first {
     color: #cccccc;
     font-size: 12px;
     margin-left: 16px;
     /* margin-top: 5px; */
 }
 
-.add-second {
+.loc-second {
     color: white;
     font-size: 14px;
     margin-left: 4px;
