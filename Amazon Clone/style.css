@@ -113,3 +113,26 @@
 .search-icon:hover {
     background-color: #ffa734;
 }
+
+/* Adding styling for box-4 */
+
+.nav-language {
+    display: flex;
+    width: 70px;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag-icon {
+    font-size: 25px;
+    margin-top: 3px;
+}
+
+#lang {
+    font-size: 14px;
+    font-weight: 600;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
