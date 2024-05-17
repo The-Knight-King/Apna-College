@@ -168,3 +168,23 @@
     padding-left: 9px;
 }
 
+
+/* Adding styling for box-7 i.e. cart */
+.nav-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 80px;
+}
+
+.fa-cart-shopping {
+    font-size: 30px;
+    padding-right: 4px;
+}
+
+.nav-cart-text {
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 13px;
+}
