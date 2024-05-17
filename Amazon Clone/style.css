@@ -142,11 +142,11 @@
 /* Adding styling for box-5 i.e. signin option */
 
 .nav-signin {
-    width: 110px;
+    width: 115px;
     height: 40px;
     padding-top: 10px;
     margin-left: 5px;
-    padding-left: 5px;
+    padding-left: 9px;
 }
 
 .nav-first {
@@ -157,3 +157,14 @@
     font-size: 14px;
     font-weight: 700;
 }
+
+/* Adding styling for box-6 i.e. returns and orders */
+
+.nav-returns {
+    width: 68px;
+    height: 40px;
+    padding-top: 10px;
+    margin-left: 10px;
+    padding-left: 9px;
+}
+
