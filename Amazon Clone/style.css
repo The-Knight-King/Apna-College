@@ -249,3 +249,36 @@
 .border-2:hover {
     border: 1.5px solid white;
 }
+
+/* Adding styling for hero-section */
+
+.hero-section {
+    background-image: url("Assets/hero_image.jpg");
+    background-size: cover;
+    width: 1500px;
+    height: 600px;
+}
+
+.hero-msg {
+    width: 1350px;
+    height: 20px;
+    background-color: #f5f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 14px;
+    position: absolute;
+    top: 350px;
+    left: 30px;
+    font-size: 14px;
+}
+
+.hero-msg a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.hero-msg a:hover {
+    color: #c7511f;
+    text-decoration: underline;
+}
