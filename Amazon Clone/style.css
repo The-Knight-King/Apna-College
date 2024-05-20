@@ -4,6 +4,10 @@
     border: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 .navbar {
     height: 62px;
     background-color: #0f1111;
@@ -330,4 +334,23 @@
 
 .card a:hover {
     color: #c7511f;
+}
+
+/* Adding stylinf for footer panel-1 */
+
+footer {
+    margin-top: 10px;
+}
+
+.foot-panel-1 {
+    height: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #485768;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
