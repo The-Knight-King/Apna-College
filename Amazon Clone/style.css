@@ -336,7 +336,7 @@ a {
     color: #c7511f;
 }
 
-/* Adding stylinf for footer panel-1 */
+/* Adding styling for footer panel-1 */
 
 footer {
     margin-top: 10px;
@@ -354,3 +354,37 @@ footer {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
+/* Adding styling for footer panel-2 */
+
+.foot-panel-2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222F3E;
+    color: white;
+    height: 350px;
+}
+
+.foot-list {
+    margin-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.foot-list ul h4 {
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.foot-list ul a {
+    display: block;
+    padding-top: 12px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.foot-list ul a:hover {
+    text-decoration: underline;
+}
+
