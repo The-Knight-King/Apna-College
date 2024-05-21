@@ -384,7 +384,7 @@ footer {
     display: block;
     padding-top: 12px;
     font-size: 14px;
-    color: white;
+    color: #dddddd;
     text-decoration: none;
 }
 
@@ -420,7 +420,7 @@ footer {
     padding: 10px 7px 10px 7px;
     border: 1px solid gray;
     border-radius: 2px;
-    color: white;
+    color: #dddddd;
 }
 
 .foot-line a:hover {
@@ -431,4 +431,49 @@ footer {
 .foot-icon {
     padding-right: 5px;
     font-size: 14px;
+}
+
+/* Adding styling for panel-4 of footer */
+
+.foot-panel-4 {
+    background-color: #131A22;
+    height: 70px;
+    color: #dddddd;
+}
+
+.pages {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.pages a{
+    color: #dddddd;
+    font-size: 12px;
+    padding-left: 15px;
+}
+
+.pages a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.fa-circle-check {
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.fa-copyright {
+    font-size: 9px;
+    padding-right: 4px;
 }
